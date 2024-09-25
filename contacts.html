@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - POLUTELE Dylan</title>
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <h2>Contactez-moi</h2>
+  <ul>
+    <li><a href="https://nc.linkedin.com/in/dylan-polutele-687902246" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    <li> Mail : <a href="mailto:dylangiovannipolutele@gmail.com">dylangiovannipolutele@gmail.com</a></li>
+    <li>Téléphone : +687 967501</li>
+  </ul>
+
+  <h2>Formulaire de contact</h2>
+  <form action="/submit" method="post">
+    <!-- Champ pour le nom -->
+    <label for="name">Nom:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <!-- Champ pour l'adresse e-mail -->
+    <label for="email">Adresse e-mail:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Champ pour le message -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+    <!-- Bouton pour envoyer le formulaire -->
+    <input type="submit" value="Envoyer">
+  </form>
+</body>
+
+</html>
