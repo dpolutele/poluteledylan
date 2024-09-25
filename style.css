@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Changement de police pour une apparence moderne */
+  color: #333; /* Couleur du texte sombre pour une meilleure lisibilité */
+  background-color: #f4f4f4; /* Couleur de fond claire */
+  max-width: 900px; /* Largeur max */
+  margin: 0 auto; /* Centrer le contenu */
+  padding: 20px; /* Espacement */
+}
+
+/* Menu */
+.menu {
+  background-color: #ffffff; /* Couleur de fond du menu */
+  padding: 20px; /* Espacement interne */
+  border-radius: 12px; /* Coins arrondis */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombre plus douce */
+}
+
+.menu h1 {
+  color: #000000; /* Couleur noire pour le titre du menu */
+  text-align: center; /* Centre le titre */
+  margin: 0 0 15px; /* Espacement */
+}
+
+/* Listes du menu */
+.menu ul {
+  list-style-type: none; /* Supprime les puces des listes */
+  padding: 0; /* Enlève le padding par défaut */
+  text-align: center; /* Centre le texte */
+}
+
+.menu li {
+  margin: 10px 0; /* Espacement entre les éléments */
+}
+
+.menu a {
+  color: #000000; /* Couleur noire pour les liens */
+  text-decoration: none; /* Enlève le soulignement */
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s; /* Animation douce */
+  padding: 10px 15px; /* Espacement autour du texte */
+  border-radius: 5px; /* Coins arrondis */
+  display: inline-block; /* Pour permettre le padding */
+}
+
+.menu a:hover {
+  background-color: #000000; /* Fond noir au survol */
+  color: #ffffff; /* Texte blanc au survol */
+  transform: scale(1.05); /* Légère augmentation de la taille au survol */
+}
+
+/* Titres principaux */
+h1, h2, h3 {
+  color: #000000; /* Couleur noire pour les titres */
+  text-align: center; /* Centre les titres */
+  margin: 10px 0; /* Ajout d'un espacement vertical */
+}
+
+/* Style pour les images */
+img {
+  max-width: 100%; /* Limite la largeur maximale de l'image */
+  height: auto; /* Maintient le ratio de l'image */
+  object-fit: cover; /* Recadre l'image si nécessaire */
+  border-radius: 8px; /* Arrondit les coins pour un style moderne */
+  border: 2px solid #000000; /* Bordure assortie à la couleur des titres */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombre plus douce */
+  display: block; /* Centre l'image */
+  margin: 20px auto; /* Centrer horizontalement avec de l'espace au-dessus et en dessous */
+}
+
+/* Sections */
+section {
+  background-color: #ffffff; /* Couleur de fond pour les sections */
+  padding: 20px; /* Espacement interne */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombre plus douce */
+  margin: 20px 0; /* Espace entre les sections */
+}
+
+/* Style pour les listes */
+ul {
+  list-style-type: none; /* Supprime les puces des listes */
+  padding: 0; /* Enlève le padding par défaut */
+}
+
+/* Style pour le footer */
+footer {
+  text-align: center; /* Centre le texte du footer */
+  margin-top: 20px; /* Espace au-dessus du footer */
+  font-size: 0.9em; /* Réduit légèrement la taille de police */
+  color: #000000; /* Couleur noire pour le footer */
+}
+
+/* Ajout d'une animation douce lors du chargement */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: fadeIn 1s ease-in; /* Animation de fondu au chargement */
+}
+
+/* Style pour la section Contact */
+.contact {
+  background-color: #ffffff; /* Couleur de fond pour la section */
+  padding: 20px; /* Espacement interne */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombre plus douce */
+  margin: 20px 0; /* Espace entre les sections */
+}
+
+/* Style pour les liens dans la section Contact */
+.contact a {
+  color: #000000; /* Couleur noire pour les liens */
+  text-decoration: underline; /* Ajoute un soulignement pour les liens */
+  transition: color 0.3s ease; /* Animation douce pour la couleur */
+}
+
+.contact a:hover {
+  color: #ffffff; /* Couleur blanche au survol */
+  background-color: #000000; /* Fond noir au survol */
+}
+
+/* Ajout d'un style pour les liens de téléchargement */
+a:link, a:visited {
+  color: #000000; /* Couleur noire pour les liens de téléchargement */
+}
+
+a:hover {
+  color: #ffffff; /* Couleur blanche au survol */
+  background-color: #000000; /* Fond noir au survol */
+}
+
+/* Recadrage et amélioration des images */
+.quisuis-je,
+.projets,
+.monparcourspro {
+  max-width: 150px; /* Limite la largeur maximale de l'image */
+  height: auto; /* Maintient le ratio de l'image */
+  object-fit: cover; /* Recadre l'image si nécessaire */
+  border-radius: 8px; /* Arrondit les coins pour un style moderne */
+  border: 2px solid #000000; /* Bordure assortie à la couleur des titres */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombre plus douce */
+  display: block; /* Centre l'image */
+  margin: 20px auto; /* Centrer horizontalement avec de l'espace au-dessus et en dessous */
+}
